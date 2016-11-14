@@ -65,7 +65,7 @@ void* child_attach_thread(void *param) {
     return nullptr;
 }
 
-
+//anti debug
 int checkDebugger(JNIEnv *env, jobject obj) {
 // use Multi process to protect itself
     int forktime = 0;
