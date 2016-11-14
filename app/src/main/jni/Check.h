@@ -8,6 +8,7 @@
 #include <jni.h>
 #include <sys/types.h>
 
+//check debug
 int checkDebugger(JNIEnv* env, jobject obj);
 bool check(JNIEnv* env, jobject obj, jstring flag);
 
